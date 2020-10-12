@@ -1,0 +1,166 @@
+
+    /*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.bigred{
+    font-size: 20px;
+    color: red;
+}
+
+body{
+    height: 100%;
+    background-color: darkslategray;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.wrapper{
+    min-height: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timer{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.timer:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: whitesmoke;
+    z-index: 3;
+    animation: mask_left 10s steps(1,end) forwards;
+}
+.timer:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: darkolivegreen;
+    z-index: 3;
+    animation: mask_right 10s steps(1,end) forwards;
+}
+.timer__line{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    z-index: 2;
+    animation: line 10s linear forwards;
+}
+.timer__line:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: darkolivegreen;
+
+}
+.timer__body{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: darkslategray;
+    text-align: center;
+    overflow: hidden;
+    z-index: 4;
+}
+
+.timer__counter{
+    animation: counter 10s steps(9,end) forwards;
+}
+
+.timer__counter span{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+@keyframes counter {
+    0% {
+    }
+    100% {
+        transform: translate(0px,-2250px);
+    }
+}
+@keyframes line {
+    0%{
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes mask_left {
+    0% {
+        visibility: visible;
+    }
+    50%,
+    100%{
+        visibility: hidden;
+    }
+
+}
+@keyframes mask_right {
+    0%{
+        visibility: hidden;
+    }
+    50%,
+    100%{
+        visibility: visible;
+    }
+}
+
