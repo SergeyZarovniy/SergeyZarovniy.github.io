@@ -1,0 +1,487 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+
+.bigred {
+    font-size: 20px;
+    color: red;
+}
+
+/* Main Style*/
+body {
+    background-color: lightgray;
+
+}
+
+.body {
+    width: 1440px;
+    height: 4300px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.headerContainer {
+    width: 741px;
+    height: 240px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstWordContainer {
+    width: 298px;
+    height: 98px;
+    background-color: #80b7b3;
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+    font-size: 68px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 75px;
+    opacity: 1.0;
+
+}
+
+.secondWordContainer {
+    width: 741px;
+    height: 136px;
+    opacity: 0.1;
+    color: #273d46;
+    font-family: Poppins, sans-serif;
+    font-size: 189px;
+    font-weight: 500;
+    line-height: 40px;
+    text-transform: uppercase;
+    /* Text style for "story" */
+    letter-spacing: 37.8px;
+}
+
+.travel_Container {
+    width: 1440px;
+    height: 573px;
+    margin-top: 93px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* travel_box Style*/
+.travel_Box {
+    margin-left: 150px;
+}
+
+.travel {
+    width: 65px;
+    height: 10px;
+    opacity: 0.6;
+    color: #273d46;
+    font-family: Poppins sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+
+.travel_header {
+    margin-top: 30px;
+    width: 424px;
+    height: 80px;
+    color: #273d46;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.travel_header_text {
+    margin-top: 150px;
+    width: 408px;
+    height: 340px;
+    opacity: 0.8;
+    color: #273d46;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.travel_Img {
+    position: relative;
+    margin-left: 180px;
+    /*overflow: hidden;*/
+}
+
+.secondfImg {
+    position: absolute;
+    right: 60%;
+    top: 13%;
+}
+
+.btn {
+    width: 199px;
+    height: 44px;
+    box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+    border-radius: 22px;
+    background-color: #80b7b3;
+    color: #ffffff;
+    font-family: Poppins sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 40px;
+    text-transform: uppercase;
+    /* Text style for "Full Story" */
+    letter-spacing: 2.8px;
+}
+
+.btn::after {
+    content: '→';
+}
+
+.btn:hover {
+    background-color: #D6B29C;
+    color: whitesmoke;
+    font-family: Poppins sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.center_part {
+    margin-top: 242px;
+}
+
+.center {
+    margin: 0 auto;
+    width: 65px;
+    height: 10px;
+    opacity: 0.6;
+    color: #273d46;
+    font-family: Poppins sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    /* Text style for "Travel" */
+    letter-spacing: 2.8px;
+}
+
+.center_header {
+    margin: 0 auto;
+    margin-top: 27px;
+    width: 710px;
+    height: 86px;
+    color: #273d46;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+}
+
+.center_img {
+    margin-top: 67px;
+    margin-left: 250px;
+}
+
+.some_text {
+    margin: 0 auto;
+    width: 744px;
+    height: 304px;
+    opacity: 0.8;
+    color: #273d46;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.btn_click {
+    margin-top: -5px;
+    margin-left: 341px;
+}
+
+.video {
+    position: relative;
+    margin-top: 112px;
+}
+
+.img1 {
+    position: absolute;
+    bottom: 40%;
+    left: 45%;
+    opacity: 0.5;
+}
+
+.img2 {
+    cursor: pointer;
+    position: absolute;
+    bottom: 47%;
+    left: 48%;
+}
+
+.img2:hover {
+    transform: scale(1.3);
+}
+
+.quote_container {
+    margin-top: 135px;
+    margin-left: 285px;
+    align-items: center;
+    width: 980px;
+    height: 546px;
+}
+
+.first_img {
+    display: flex;
+
+}
+
+.quot {
+    width: 58px;
+    height: 12px;
+    opacity: 0.6;
+    color: #273d46;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+
+.quot_text {
+    height: 80px;
+    color: #273d46;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-top: 27px;
+}
+
+.first_text {
+    margin-top: 65px;
+    margin-left: 30px;
+}
+
+.overlaw_img {
+    width: 751px;
+    height: 313px;
+    box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 242px;
+}
+
+.rel {
+    position: relative;
+}
+
+.over_text {
+
+    margin-left: 112px;
+    padding-top: 65px;
+    font-style: italic;
+    width: 551px;
+    height: 124px;
+    color: #273d46;
+    font-family: "Playfair Display", serif;
+    font-size: 26px;
+    line-height: 46px;
+}
+
+.athor {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2.8px;
+    font-style: normal;
+    font-size: small;
+}
+
+.over_btn {
+    margin-top: 165px;
+    margin-left: 350px;
+}
+
+.forest_container {
+    margin-top: 160px;
+}
+
+.forest_vie {
+    position: absolute;
+
+}
+
+.forest_overlaw {
+    margin-left: 386px;
+    top: 150px;
+    position: relative;
+    width: 670px;
+    height: 327px;
+    background-color: #273d46;
+    opacity: 0.9;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.64px;
+    text-align: center;
+    padding-top: 58px;
+    padding-left: 119px;
+    padding-right: 111px;
+}
+
+.name {
+    width: 200px;
+    height: 45px;
+    border-radius: 22px;
+    border: 1px solid #fff7f4;
+    background-color: #000000;
+    opacity: 0.2;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 2.8px;
+}
+
+.email {
+    margin-top: 50px;
+    width: 200px;
+    height: 45px;
+    border-radius: 22px;
+    border: 1px solid #fff7f4;
+    background-color: #000000;
+    opacity: 0.2;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 2.8px;
+}
+
+.name:hover {
+    background-color: whitesmoke;
+    color: #273d46;
+    cursor: pointer;
+}
+
+.email:hover {
+    background-color: whitesmoke;
+    color: #273d46;
+    cursor: pointer;
+}
+
+.subBtn {
+    margin-top: 25px;
+    width: 232px;
+    height: 44px;
+    box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+    border-radius: 22px;
+    background-color: #80b7b3;
+    color: #ffffff;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+
+.subBtn::after {
+    content: '  →';
+}
+
+.subBtn:hover {
+    background-color: #D6B29C;
+    color: whitesmoke;
+    font-family: Poppins sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+
+
