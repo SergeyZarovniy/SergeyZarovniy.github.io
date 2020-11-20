@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fee59ab5-e93f-4e3b-b8ef-dbb6a90c0579" name="Default Changelist" comment="" />
+    <list default="true" id="607fc1cc-e3e0-4185-b13b-a21c89dffada" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +15,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1jQhY5N40iYqh1UQQmtZUSgXhQJ" />
+  <component name="ProjectId" id="1k43ZvoiorNnteQt5rFExvwvoyn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,29 +25,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BroCar" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Zarov\Desktop\Projects 2020\BroCar" />
-    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fee59ab5-e93f-4e3b-b8ef-dbb6a90c0579" name="Default Changelist" comment="" />
-      <created>1603742266501</created>
+      <changelist id="607fc1cc-e3e0-4185-b13b-a21c89dffada" name="Default Changelist" comment="" />
+      <created>1604946095372</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603742266501</updated>
-      <workItem from="1603742268278" duration="1313000" />
-      <workItem from="1603812343609" duration="5113000" />
-      <workItem from="1603817967456" duration="9915000" />
-      <workItem from="1603859265041" duration="694000" />
-      <workItem from="1604065115298" duration="252000" />
+      <updated>1604946095372</updated>
+      <workItem from="1604946096877" duration="11116000" />
+      <workItem from="1605200317906" duration="7497000" />
+      <workItem from="1605864553941" duration="7510000" />
+      <workItem from="1605872672666" duration="1773000" />
     </task>
     <servers />
   </component>
@@ -55,9 +49,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="551" y="178" key="#Inspections" timestamp="1603828675590">
+    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1605204304789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1603828675590" />
+    <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605204304789" />
   </component>
 </project>
