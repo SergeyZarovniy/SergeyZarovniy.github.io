@@ -18,7 +18,6 @@
     height: 835px;
 }
 .logo{
-    /*position: relative;*/
     cursor: pointer;
     font-size: 45px;
     color: whitesmoke;
@@ -26,6 +25,9 @@
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 25px;
+}
+h1{
+    background-color: rgba(114,126,135,0.3);
 }
 
 .logo__first{
@@ -46,7 +48,7 @@ ul{
     justify-content: space-around;
     color: whitesmoke;
     font-size: 30px;
-    font-family: Raleway;
+    font-family: ;
     margin-top: 45px;
     margin-right: 35px;
 }
@@ -77,12 +79,13 @@ li:hover{
 }
 .header__subtitle{
     max-width: 950px;
-    padding-top: 55px;
+    padding-top: 45px;
     font-size: 35px;
     color: whitesmoke;
     position: relative;
     font-family: Mantserrat;
     font-style: italic;
+    background-color: rgba(114,126,135,0.3)
 
 }
 .subtitle__overlay{
@@ -131,6 +134,7 @@ button:hover{
     font-weight: bolder;
     font-size: 50px;
     cursor: pointer;
+    text-align: center;
 }
 
 .why__container{
