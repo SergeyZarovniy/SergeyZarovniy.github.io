@@ -27,7 +27,7 @@
     margin-left: 25px;
 }
 h1{
-    background-color: rgba(114,126,135,0.3);
+    /*background-color: rgba(114,126,135,0.3);*/
 }
 
 .logo__first{
@@ -79,12 +79,12 @@ li:hover{
 }
 .header__subtitle{
     max-width: 950px;
-    padding-top: 45px;
+    padding-top: 25px;
     font-size: 35px;
     color: whitesmoke;
     position: relative;
     font-family: Mantserrat;
-    font-style: italic;
+    /*font-style: italic;*/
     background-color: rgba(114,126,135,0.3)
 
 }
