@@ -6,17 +6,20 @@
     position: relative;
     background-attachment:fixed;
 }
+
 .header__content{
     background-color: #041122;
     display: flex;
     justify-content: space-between;
 }
+
 .overlay {
     position: absolute;
     background-color: rgba(17, 17, 17, 0.4);
     width: 100%;
     height: 835px;
 }
+
 .logo{
     cursor: pointer;
     font-size: 45px;
@@ -26,9 +29,6 @@
     margin-bottom: 25px;
     margin-left: 25px;
 }
-h1{
-    /*background-color: rgba(114,126,135,0.3);*/
-}
 
 .logo__first{
     border: red solid 2px;
@@ -36,6 +36,7 @@ h1{
     opacity: 0.8;
     font-family:"Raleway";
 }
+
 .logo__second{
     border: red solid 2px;
     font-family: Raleway;
@@ -43,6 +44,7 @@ h1{
     color: whitesmoke;
     opacity: 0.8;
 }
+
 ul{
     display: flex;
     justify-content: space-around;
@@ -52,13 +54,23 @@ ul{
     margin-top: 45px;
     margin-right: 35px;
 }
+
 li{
     position: relative;
     padding:0 20px 0 20px;
     cursor: pointer;
     opacity: 0.7;
 }
+
 li:hover{
+    opacity: 1;
+    text-decoration: underline red;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
     opacity: 1;
     text-decoration: underline red;
 }
@@ -68,6 +80,7 @@ li:hover{
     text-align: center;
 
 }
+
 .header__tittle{
     padding-top: 200px;
     font-size: 55px;
@@ -77,6 +90,7 @@ li:hover{
     font-weight: 900;
 
 }
+
 .header__subtitle{
     max-width: 950px;
     padding-top: 25px;
@@ -84,10 +98,12 @@ li:hover{
     color: whitesmoke;
     position: relative;
     font-family: Mantserrat;
-    /*font-style: italic;*/
-    background-color: rgba(114,126,135,0.3)
+    background-color: rgba(114,126,135,0.3);
+    text-transform: uppercase;
+
 
 }
+
 .subtitle__overlay{
     width: auto;
     height: 150px;
@@ -95,9 +111,11 @@ li:hover{
     position: absolute;
     opacity: 0.2;
 }
+
 .call__btn{
     margin-top: 60px;
 }
+
 button{
     font-size: 35px;
     border: solid 2px #E62818;
@@ -110,25 +128,30 @@ button{
     opacity: 0.7;
 
 }
+
 button:hover{
     background-color: red;
     color: whitesmoke;
     opacity: 0.9;
 }
+
 .brands{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
 }
+
 .brand__box{
     display: flex;
     margin-top: 100px;
 }
+
 .brands{
     width: 50%;
     align-items: center;
     padding-top: 50px;
 }
+
 .brand__title{
     font-family: "Raleway";
     font-weight: bolder;
@@ -144,12 +167,14 @@ button:hover{
     height: 650px;
     background-attachment:fixed;
 }
+
 .container__overlay{
     position: absolute;
     background-color: rgba(17, 17, 17, 0.6);
     width: 100%;
     height: 650px;
 }
+
 .content__section{
     width: 75%;
     margin: 0 auto;
@@ -157,6 +182,7 @@ button:hover{
     /*background-color: red;*/
     padding-top: 50px;
 }
+
 .section__tittle{
     color: whitesmoke;
     font-size: 65px;
@@ -165,6 +191,7 @@ button:hover{
     text-align: center;
     text-decoration: underline red;
 }
+
 .item__section{
     display: flex;
     justify-content: space-between;
@@ -175,17 +202,20 @@ button:hover{
     position: relative;
     /*background-color: black;*/
 }
+
 .item{
     width: 25%;
     text-align: center;
 
 }
+
 .icon{
     width: 150px;
     height: 150px;
     color: white;
     cursor: pointer;
 }
+
 .item__tittle{
     margin-top: 25px;
     color: whitesmoke;
@@ -193,8 +223,45 @@ button:hover{
     font-family: Raleway;
 
 }
+
 .item__tittle:hover{
     cursor: pointer;
     background-color: red;
     border-radius: 2%;
+}
+
+.services__container{
+    margin-top: 65px;
+    text-align: center;
+}
+.title{
+    font-size: 45px;
+    font-family: Raleway;
+    font-weight: bolder;
+    text-decoration: underline red ;
+}
+.item__container{
+    width: 100%;
+    margin: 0 auto;
+
+}
+.service__item{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65px;
+}
+.service__title{
+    font-family: Raleway;
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.service__subtitle{
+    font-family: Raleway;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.items{
+    width: 25%;
 }

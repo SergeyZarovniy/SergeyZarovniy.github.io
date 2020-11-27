@@ -25,7 +25,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BroCar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="SvnConfiguration">
@@ -43,6 +43,7 @@
       <workItem from="1605864553941" duration="7510000" />
       <workItem from="1605872672666" duration="1773000" />
       <workItem from="1605966385999" duration="1003000" />
+      <workItem from="1606240240042" duration="8339000" />
     </task>
     <servers />
   </component>
