@@ -319,8 +319,10 @@ hr{
     color: red;
     font-size: 30px;
     font-family: Mantserrat;
-    margin-top: 45px;
+    margin-top: 125px;
     text-align: center;
+    margin-left: 322px;
+
 }
 .time{
     color: darkslategray;
