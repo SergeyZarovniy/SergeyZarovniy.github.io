@@ -236,9 +236,11 @@ button:hover{
 }
 .title{
     font-size: 45px;
+    width: 25%;
+    margin: 0 auto;
     font-family: Raleway;
     font-weight: bolder;
-    text-decoration: underline red ;
+    text-decoration: underline red;
 }
 .item__container{
     width: 100%;
@@ -264,4 +266,111 @@ button:hover{
 
 .items{
     width: 25%;
+    cursor: pointer;
+}
+hr{
+    color: red;
+    size: 3px;
+}
+.section__kontakt{
+    margin-top: 100px;
+    width: 100%;
+    height: 680px;
+    display: flex;
+}
+.header{
+    color: darkslategray;
+    font-size: 55px;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: bold;
+    margin-top: 100px;
+    text-decoration: underline red;
+}
+
+.kontakt__address{
+    width: 50%;
+    height: 680px;
+
+}
+.kontant{
+    color: darkslategray;
+    font-size: 45px;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: bold;
+}
+.adress{
+    color: red;
+    font-size: 30px;
+    font-family: Mantserrat;
+    margin-top: 55px;
+    text-align: center;
+}
+.tel{
+    color: darkslategray;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Raleway;
+    margin-top: 55px;
+}
+.num{
+    color: red;
+    font-size: 30px;
+    font-family: Mantserrat;
+    margin-top: 45px;
+    text-align: center;
+}
+.time{
+    color: darkslategray;
+    font-size: 45px;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: bold;
+    margin-top: 55px;
+}
+.days{
+    color: red;
+    font-size: 30px;
+    font-family: Mantserrat;
+    margin-top: 45px;
+    text-align: center;
+}
+.kontakt__map{
+    width: 50%;
+    height: 100%;
+}
+.map{
+    width: 100%;
+    height: 65%;
+    margin-top: 55px;
+    align-content: center;
+}
+.kontakt__bro{
+    width: 50%;
+    height: 680px;
+    align-items: center;
+
+}
+.logo__brocar{
+    padding-left: 180px;
+}
+.logo__bro{
+    width: 60%;
+}
+.about__us{
+    color: darkslategray;
+    font-size: 45px;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: bold;
+}
+.text{
+    margin-top: 55px;
+    padding-right: 15px;
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    font-style: italic;
 }
