@@ -1,0 +1,25 @@
+
+/* Large Devices */
+@media only screen and (max-width: 1200px) {
+    }
+
+
+
+/* Medium Devices */
+@media only screen and (max-width: 992px) {
+}
+
+/* Small Devices */
+@media only screen and (max-width: 768px) {
+
+}
+
+
+/* Extra Small  */
+@media only screen and (max-width: 480px) {
+}
+
+/* Custom */
+@media only screen and (max-width: 320px) {
+
+}

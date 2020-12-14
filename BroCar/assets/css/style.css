@@ -75,7 +75,7 @@ a:hover{
     text-decoration: underline red;
 }
 .content__part{
-    max-width: 50%;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
 
@@ -243,7 +243,7 @@ button:hover{
     text-decoration: underline red;
 }
 .item__container{
-    width: 100%;
+   max-width: 100%;
     margin: 0 auto;
 
 }
@@ -293,51 +293,22 @@ hr{
 
 
 }
-.kontant{
+.kontakt__tittle{
+    padding-top: 25px;
     color: darkslategray;
     font-size: 45px;
     text-align: center;
     font-family: Raleway;
     font-weight: bold;
 }
-.adress{
-    color: red;
-    font-size: 30px;
-    font-family: Mantserrat;
-    margin-top: 55px;
-    text-align: center;
-}
-.tel{
-    color: darkslategray;
-    font-size: 45px;
-    font-weight: bold;
-    text-align: center;
-    font-family: Raleway;
-    margin-top: 55px;
-}
-.num{
-    color: red;
-    font-size: 30px;
-    font-family: Mantserrat;
-    margin-top: 25px;
-    text-align: center;
-
-}
-.time{
-    color: darkslategray;
-    font-size: 45px;
-    text-align: center;
-    font-family: Raleway;
-    font-weight: bold;
-    margin-top: 55px;
-}
-.days{
+.kontakt__subtitle{
     color: red;
     font-size: 30px;
     font-family: Mantserrat;
     margin-top: 45px;
     text-align: center;
 }
+
 .kontakt__map{
     width: 50%;
     height: 100%;
@@ -347,33 +318,6 @@ hr{
     height: 65%;
     margin-top: 55px;
     align-content: center;
-}
-.kontakt__bro{
-    width: 50%;
-    height: 680px;
-    align-items: center;
-
-}
-.logo__brocar{
-    padding-left: 180px;
-}
-.logo__bro{
-    width: 60%;
-}
-.about__us{
-    color: darkslategray;
-    font-size: 45px;
-    text-align: center;
-    font-family: Raleway;
-    font-weight: bold;
-}
-.text{
-    margin-top: 55px;
-    padding-right: 15px;
-    text-align: center;
-    color: red;
-    font-size: 25px;
-    font-style: italic;
 }
 .bro__logo{
     width: 55%;
