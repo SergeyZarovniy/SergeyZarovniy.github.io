@@ -56,8 +56,17 @@ body{
 .landing_subtitle{
     font-size: 25px;
     color: whitesmoke;
-    font-family: 'Roboto', sans-serif;
+    font-family: Raleway;
 }
 .red{
     color: red;
+}
+.title{
+    font-size: 45px;
+    color: black;
+    font-family: Raleway;
+    font-weight: 900;
+}
+#brands{
+    background-color: gainsboro;
 }
