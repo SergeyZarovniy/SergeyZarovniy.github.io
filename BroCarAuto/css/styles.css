@@ -1,5 +1,6 @@
 body{
     font-family: 'Raleway', sans-serif;
+    
 }
 
 .logo-first-part{
@@ -54,19 +55,23 @@ body{
     font-weight: 900;
 }
 .landing_subtitle{
-    font-size: 25px;
+    font-size: 35px;
     color: whitesmoke;
     font-family: Raleway;
+    
 }
 .red{
     color: red;
+    border: 1px solid white;
 }
 .title{
     font-size: 45px;
     color: black;
     font-family: Raleway;
     font-weight: 900;
+    
 }
 #brands{
-    background-color: gainsboro;
+    background-color:  rgba(17, 17, 17, 0.1)
+    
 }
