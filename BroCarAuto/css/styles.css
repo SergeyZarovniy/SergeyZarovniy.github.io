@@ -79,6 +79,12 @@ body{
     
 }
 .carousel_title{
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 900;
+}
+.carousel_subtitle{
+    font-size: 25px;
+    background-color: whitesmoke;
+    font-weight: 600;
+
 }
