@@ -5,16 +5,16 @@ body{
 
 .logo-first-part{
     font-size: 1rem;
-    background-color: red;
+    background-color: #DC3545;
     color: white;
-    border: 2px solid red;
+    border: 2px solid #DC3545;
     font-family: 'Roboto', sans-serif;
 }
 .logo-second-part{
     font-size: 1rem;
     background-color: black;
     color: white;
-    border: 2px solid red;
+    border: 2px solid #DC3545;
     font-family: 'Roboto', sans-serif;
 }
 .header_image{
@@ -60,11 +60,12 @@ body{
     font-family: Raleway;
 }
 .button{
-    background-color: ;
+    
 }
 .red{
-    color: red;
+    color: #DC3545;
     border: 1px solid white;
+    font-size:51px;
 }
 .title{
     font-size: 45px;
