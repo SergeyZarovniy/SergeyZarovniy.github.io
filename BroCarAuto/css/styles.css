@@ -34,6 +34,11 @@ body{
     width: 100%;
     background-size: cover;
 }
+.btn{
+    background-color: #DC3545;
+    border: 2px solid #DC3545;
+    
+}
 
 .landing_text{
     position: relative;
