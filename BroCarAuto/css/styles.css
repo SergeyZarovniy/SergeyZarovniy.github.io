@@ -91,3 +91,20 @@ hr{
     background-color: whitesmoke;
     margin-top: 150px;
 }
+.cards{
+    margin: 0 auto;
+}
+#uslugi{
+    margin-top: 100px;
+}
+.feature ul{
+    padding-left: 2rem;
+    list-style-type: none;
+}
+.feature ul li {
+   margin-right: 2rem;
+   font-size: 20px;   
+}
+h5{
+    font-weight: 900;
+}
