@@ -37,7 +37,7 @@ body{
 .btn{
     background-color: #DC3545;
     border: 2px solid #DC3545;
-    
+
 }
 
 .landing_text{
@@ -130,4 +130,14 @@ h5{
 }
 .text_section{
     /* background-color: #DC3545; */
+}
+footer{
+    margin-top: 15px;
+}
+.footer{
+    background-color: #212529;
+    height: 55px;
+    color: whitesmoke;
+    vertical-align: middle; 
+    padding-top: 15px;
 }
