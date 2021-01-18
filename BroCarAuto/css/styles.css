@@ -1,6 +1,9 @@
 body{
     font-family: 'Raleway', sans-serif;  
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-image: url(../img/main_bg.png);
+    
+
 }
 
 .logo-first-part{
@@ -90,11 +93,11 @@ hr{
 }
 .carousel_subtitle{
     font-size: 25px;
-    background-color: whitesmoke;
+    
     font-weight: 600;
 }
 .why_us{
-    background-color: whitesmoke;
+    
     margin-top: 150px;
 }
 .cards{
@@ -139,5 +142,19 @@ footer{
     height: 55px;
     color: whitesmoke;
     vertical-align: middle; 
-    padding-top: 15px;
+    padding-top: 12px;
+}
+.map_responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map_responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 }
