@@ -152,6 +152,13 @@ h5{
     cursor: pointer;
     color: black;
 }
+.kontakt_subtitle_tel{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: Roboto;
+    padding-right: 12px;
+}
 
 footer{
     margin-top: 15px;
