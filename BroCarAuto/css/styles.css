@@ -85,7 +85,7 @@ hr{
     color: red;
     width: 50%;
     margin: 0 auto;
-    line-height: 2px;
+    height: 5px;
 }
 .carousel_title{
     font-size: 45px;
@@ -130,19 +130,29 @@ h5{
 }
 .kontakt_subtitle{
     font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: Roboto;
 }
+.kontakt_subtitle:hover{
+    cursor: pointer;
+    color: black;
+}
+
 .text_section{
     /* background-color: #DC3545; */
 }
 footer{
     margin-top: 15px;
+    background-color: #212529;
+    color: blanchedalmond;
 }
 .footer{
     background-color: #212529;
     height: 55px;
     color: whitesmoke;
     vertical-align: middle; 
-    padding-top: 12px;
+    
 }
 .map_responsive{
     overflow:hidden;
@@ -157,4 +167,6 @@ footer{
     width:100%;
     position:absolute;
 }
+footer{
+    margin-top: 25px;
 }
